@@ -7,7 +7,7 @@ jQuery.noConflict(); //追加
     kintone.events.on('app.record.index.show', function(event) {
         //増殖バグ防止
         if (document.getElementById('insert') !== null) {
-            return;
+            return;  
         }
         var myHeaderSpace = kintone.app.getHeaderMenuSpaceElement();
 
